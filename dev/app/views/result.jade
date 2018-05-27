@@ -1,0 +1,19 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		title=_title
+		link(rel='stylesheet', href='/index.css')
+	body
+		div
+			h1 Use Shorten URL, now!
+			table
+				tr
+					td(class='title') Shorten URL
+					td(class='url')
+						a(href=shortUrl)
+							=shortUrl
+				tr
+					td(class='title') Origin URL
+					td(class='url')
+						=orgUrl
