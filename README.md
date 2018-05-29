@@ -4,7 +4,7 @@
 Quick Start
 -----------
 To get started, you need to install Node.js.
-Also you need to install 3 node from npm. 
+Also you need to install 3 modules from npm. 
 1. body-parser
 2. express
 3. mysql
